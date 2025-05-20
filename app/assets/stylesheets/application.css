@@ -91,7 +91,7 @@ body {
 }
 .user_list_item {
   height: 55px;
-  background-color: #343a40 !important;
+  background-color: rgb(251, 244, 248) !important;
 }
 .room_list_item {
   height: 55px;

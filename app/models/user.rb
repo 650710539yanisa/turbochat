@@ -18,6 +18,15 @@ class User < ApplicationRecord
     avatar.variant(resize_to_limit: [50, 50]).processed
   end
 
+#   def avatar_thumbnail
+#   avatar.attached? ? avatar.variant(resize_to_limit: [150, 150]).processed : nil
+# end
+
+# def chat_avatar
+#   avatar.attached? ? avatar.variant(resize_to_limit: [50, 50]).processed : nil
+# end
+
+
   private
 
   def add_default_avatar
